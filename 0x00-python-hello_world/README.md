@@ -52,12 +52,12 @@
 
 ## Tasks :page_with_curl:
 ### Mandatory
-- [x] **[0. Run Python file](./)** - Description
-- [x] **[1. Run inline](./)** - Description
-- [x] **[2. Hello, print](./)** - Description
-- [x] **[3. Print integer](./)** - Description
-- [x] **[4. Print float](./)** - Description
-- [x] **[5. Print string](./)** - Description
+- [x] **[0. Run Python file](./0-run)** - Write a Shell script that runs a Python script.
+- [x] **[1. Run inline](./1-run_inline)** - Write a Shell script that runs Python code.
+- [x] **[2. Hello, print](./2-print.py)** - Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+- [x] **[3. Print integer](./3-print_number.py)** - Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
+- [x] **[4. Print float](./4-print_float.py)** - Complete the [source code](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py) in order to print the float stored in the variable number with a precision of 2 digits.
+- [x] **[5. Print string](./5-print_string.py)** - Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/5-print_string.py) in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
 - [x] **[6. Play with strings](./6-concat.py)** - Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py) to print Welcome to Holberton School!
 - [x] **[7. Copy - Cut - Paste](./7-edges.py)** - Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py)
 - [x] **[8. Create a new sentence](./8-concat_edges.py)** - Complete this source code to print object-oriented programming with Python, followed by a new line.
