@@ -1,4 +1,4 @@
-# Holbertonschool-higher_level_programming :boom:
+# Holbertonschool Higher Level Programming :boom:
 
 ## Introduction 
 This repository contains all the project tasks of Holberton School higher level programing program, most of them where written in Python programing lenguage.
