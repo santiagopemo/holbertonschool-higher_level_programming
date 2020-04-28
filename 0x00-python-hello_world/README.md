@@ -67,12 +67,14 @@
 - [x] **[11. Hello, write](./100-writ)** - Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
 - [x] **[12. Compile](./101-compile)** - Write a script that compiles a Python script file.
 - [x] **[13. ByteCode -> Python #1](./102-magic_calculation.py)** - Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
-`3           0 LOAD_CONST               1 (98)
+```
+ 3           0 LOAD_CONST               1 (98)
               3 LOAD_FAST                0 (a)
               6 LOAD_FAST                1 (b)
               9 BINARY_POWER
              10 BINARY_ADD
-             11 RETURN_VALUE`
+             11 RETURN_VALUE
+```
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
