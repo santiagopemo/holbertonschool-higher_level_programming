@@ -16,9 +16,6 @@ This repository contains projects on the Python programming language. The projec
 ## Requirements :white_check_mark:
 * Ubuntu 14.04 LTS
 
-## Compiling
-* Wait
-
 ## Projects :page_with_curl:
 1. [0x00. Python - Hello, World](./0x00-python-hello_world)
 2. [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
