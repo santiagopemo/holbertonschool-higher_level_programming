@@ -12,6 +12,9 @@ This repository contains all the project tasks of Holberton School higher level 
 ## About
 This repository contains projects on the Python programming language. The projects cover:
 - Python programming
+- If, else, elif
+- loops (while, for)
+- lists, tupes
 
 ## Requirements :white_check_mark:
 * Ubuntu 14.04 LTS
