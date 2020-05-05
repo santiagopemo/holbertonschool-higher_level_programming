@@ -1,4 +1,4 @@
-# 0x00. C - Hello, World
+# 0x00. Python - Hello, World
 ## Resources :books:
 
 * [The Python tutorial](https://intranet.hbtn.io/rltoken/fX5geNeDFcCtootbB_MqCQ)
