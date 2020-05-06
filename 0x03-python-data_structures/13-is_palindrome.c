@@ -30,14 +30,16 @@ listint_t *reverse_listint(listint_t **head)
  */
 int is_palindrome(listint_t **head)
 {
-	listint_t *h = *head, *r, *rhead;
+	listint_t *h, *r, *rhead;
 	int size, i;
 
 	if (*head == NULL)
 		return (1);
-	for (size = 0; h->next; h = h->next, size++)
+	for (h = *head, size = 1; h; h = h->next, size++)
 		continue;
-	for (h = *head, i = 0; i <= (size / 2); i++, h = h->next)
+	if (size == 1)
+		return (1);
+	for (h = *head, i = 1; i < (size / 2); i++, h = h->next)
 		continue;
 	h = h->next;
 	rhead = reverse_listint(&h);
