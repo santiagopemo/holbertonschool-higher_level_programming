@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
     total = 0
-    if roman_string and len(roman_string):
+    if roman_string and len(roman_string) and isinstance(roman_string, str):
         numbers = {
             'I': 1,
             'V': 5,
