@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
     total = 0
-    if roman_string and len(roman_string):
+    if roman_string and len(roman_string) and:
         numbers = {
             'I': 1,
             'V': 5,
@@ -14,6 +14,8 @@ def roman_to_int(roman_string):
         rom = roman_string
         l = len(rom)
         for i in range(l):
+            if rom[i] not in numbers:
+                return 0
             if i != l - 1 and (numbers[rom[i + 1]] > numbers[rom[i]]):
                 total -= numbers[rom[i]]
             else:
