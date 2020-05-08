@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    total = 0
-    if roman_string and len(roman_string):
+    if (not isinstance(roman_string, str) or
+            roman_string is None):
+        return 0
+    else:
         numbers = {
             'I': 1,
             'V': 5,
@@ -13,6 +15,7 @@ def roman_to_int(roman_string):
         }
         rom = roman_string
         l = len(rom)
+        total = 0
         for i in range(l):
             if numbers.get(rom[i], 0) == 0:
                 return 0
@@ -20,4 +23,4 @@ def roman_to_int(roman_string):
                 total -= numbers[rom[i]]
             else:
                 total += numbers[rom[i]]
-    return total
+        return total
