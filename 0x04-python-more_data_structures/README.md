@@ -47,7 +47,7 @@
 - [x] **[13. Weighted average!](./100-weight_average.py)** - Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
 - [x] **[14. Squared by using map](./101-square_matrix_map.py)** - Write a function that computes the square value of all integers of a matrix using map
 - [x] **[15. Delete by value](./102-complex_delete.py)** - Write a function that deletes keys with a specific value in a dictionary.
-- [x] **[16. CPython #1: PyBytesObject](./103-python.c)** - Create two C functions that print some basic info about Python lists and Python bytes objects.
+- [ ] **[16. CPython #1: PyBytesObject](./103-python.c)** - Create two C functions that print some basic info about Python lists and Python bytes objects.
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
