@@ -1,4 +1,4 @@
-#!/usr/vin/python3
+#!/usr/bin/python3
 def roman_to_int(roman_string):
     total = 0
     if roman_string and len(roman_string):
