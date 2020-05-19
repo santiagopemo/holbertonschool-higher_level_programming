@@ -94,7 +94,7 @@
  13     >>  103 LOAD_FAST                2 (result)
             106 RETURN_VALUE
 ```
-- [x] **[10. CPython #2: PyFloatObject](./103-python.c)** - Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
+- [ ] **[10. CPython #2: PyFloatObject](./103-python.c)** - Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
