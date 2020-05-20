@@ -57,14 +57,14 @@ class SinglyLinkedList:
     def sorted_insert(self, value):
         """ Adds a new node sortedly in a linked list """
         new = Node(value)
-        if self.__head is None or new.data <= self.__head.data:
+        if self.__head is None or self.__head.data >= new.data:
             if self.__head:
                 new.next_node = self.__head
             self.__head = new
             return
         tmp = self.__head
         while tmp.next_node is not None:
-            if new.data <= tmp.next_node.data:
+            if tmp.next_node.data >= new.data:
                 break
             tmp = tmp.next_node
         new.next_node = tmp.next_node
