@@ -48,18 +48,20 @@ class SinglyLinkedList:
         """ Prints the linked list """
         string = ""
         tmp = self.__head
-        while tmp.next_node is not None:
-            string += "{:d}\n".format(tmp.data)
+        while tmp is not None:
+            string += "{:d}".format(tmp.data) + "\n"
             tmp = tmp.next_node
-        string += "{:d}".format(tmp.data)
-        return string
+        return string[:-1]
 
     def sorted_insert(self, value):
         """ Adds a new node sortedly in a linked list """
         new = Node(value)
-        if self.__head is None or self.__head.data >= new.data:
-            if self.__head:
-                new.next_node = self.__head
+        if self.__head is None:
+            new.next_node = None
+            self.__head = new
+            return
+        if self.__head.data > new.data:
+            new.next_node = self.__head
             self.__head = new
             return
         tmp = self.__head
