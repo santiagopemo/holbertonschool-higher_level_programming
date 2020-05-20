@@ -58,7 +58,8 @@ class SinglyLinkedList:
         """ Adds a new node sortedly in a linked list """
         new = Node(value)
         if self.__head is None or new.data <= self.__head.data:
-            new.next_node = self.__head
+            if self.__head:
+                new.next_node = self.__head
             self.__head = new
             return
         tmp = self.__head
