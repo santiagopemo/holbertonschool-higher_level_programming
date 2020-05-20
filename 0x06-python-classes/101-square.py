@@ -56,10 +56,11 @@ class Square:
 
     def __str__(self):
         """ Returns a string with the square with the character '#' """
+        string = ""
         if self.__size == 0:
-            print()
+            string += "\n"
         else:
-            print(self.__position[1] * "\n", end="")
+            string += self.__position[1] * "\n"
             for i in range(self.__size):
-                print(self.__position[0] * " " + self.__size * "#")
-        return("")
+                string += self.__position[0] * " " + self.__size * "#" + "\n"
+        return(string[:-1])
