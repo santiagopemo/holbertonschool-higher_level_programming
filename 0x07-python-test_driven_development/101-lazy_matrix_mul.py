@@ -9,4 +9,4 @@ import numpy
 
 def lazy_matrix_mul(m_a, m_b):
     """ Multiplicates two matrices """
-    return mumpy.matmul(m_a, m_b)
+    return numpy.matmul(m_a, m_b)
