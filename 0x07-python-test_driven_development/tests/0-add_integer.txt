@@ -11,32 +11,30 @@ Testing cases:
 >>> add_integer(1, 2)
 3
 
->>> add_integer(100, -2)
-98
+>>> add_integer(100, -1)
+99
 
->>> add_integer(2)
-100
-
->>> add_integer(100.3, -2)
-98
-
->>> add_integer(4, "School")
-Traceback (most recent call last):
-TypeError: b must be an integer
-
->>> add_integer(None)
-Traceback (most recent call last):
-TypeError: a must be an integer
-
->>> add_integer()
-Traceback (most recent call last):
-TypeError: add_integer() missing 1 required positional argument: 'a'
-
->>> add_integer(100.3, 0.7)
-100
-
->>> add_integer(0)
-98
+>>> add_integer(10)
+108
 
 >>> add_integer(-2, -2)
 -4
+
+>>> add_integer(50.5, 50.2)
+100
+
+>>> add_integer(100.2, -2)
+98
+
+>>> add_integer(100.3)
+198
+
+>>> add_integer(1, "hola")
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> add_integer("hello", "hola")
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
