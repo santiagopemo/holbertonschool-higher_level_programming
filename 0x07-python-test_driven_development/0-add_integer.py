@@ -1,15 +1,9 @@
 #!/usr/bin/python3
-"""
-Add integer module
-contains:
-add_integer fucntion
-"""
+"""Add two integers"""
 
 
 def add_integer(a, b=98):
-    """
-    Adds two integers
-    """
+    """ Adds two integers """
     if type(a) is float:
         a = int(a)
     if type(b) is float:
@@ -18,4 +12,5 @@ def add_integer(a, b=98):
         raise TypeError("a must be an integer")
     if not type(b) is int or type(b) is float:
         raise TypeError("b must be an integer")
+
     return a + b
