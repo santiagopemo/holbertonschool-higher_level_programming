@@ -16,6 +16,9 @@ This repository contains projects on the Python programming language. The projec
 - Loops (while, for)
 - Modules
 - Data structures
+- Exceptions
+- Classes and objects
+- Tests development
 
 ## Requirements :white_check_mark:
 * Ubuntu 14.04 LTS
