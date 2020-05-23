@@ -46,7 +46,7 @@
 ### Advance :muscle:
 - [x] **[6. Matrix multiplication](./100-matrix_mul.py)** - Write a function that multiplies 2 matrices:
 - [x] **[7. Lazy matrix multiplication](./101-lazy_matrix_mul.py)** - Write a function that multiplies 2 matrices by using the module NumPy
-- [x] **[8. CPython #3: Python Strings](./102-python.c)** - Create a function that prints Python strings.
+- [ ] **[8. CPython #3: Python Strings](./102-python.c)** - Create a function that prints Python strings.
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
