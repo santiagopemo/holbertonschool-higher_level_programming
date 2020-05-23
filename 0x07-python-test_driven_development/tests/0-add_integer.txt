@@ -1,40 +1,47 @@
-===============================
- The ``0-add_integer`` module
-===============================
+the ''0-add_integer'' module
 
-Testing ``add_integer`` function
 
->>> add_integer = __import__('0-add_integer').add_integer
+using add_integer
 
-Testing cases:
+>>> add_integer = __import__("0-add_integer").add_integer
 
->>> add_integer(1, 2)
-3
+    basic use
+    >>> add_integer(1, 2)
+    3
 
->>> add_integer(100, -1)
-99
+    one negative
+    >>> add_integer(100, -1)
+    99
 
->>> add_integer(10)
-108
+    one input
+    >>> add_integer(10)
+    108
 
->>> add_integer(-2, -2)
--4
+    two negatives
+    >>> add_integer(-2, -2)
+    -4
 
->>> add_integer(50.5, 50.2)
-100
+    float number
+    >>> add_integer(50.5, 50.2)
+    100
 
->>> add_integer(100.2, -2)
-98
+    negative float
+    >>> add_integer(100.2, -2)
+    98
 
->>> add_integer(100.3)
-198
+    one float
+    >>> add_integer(100.3)
+    198
 
->>> add_integer(1, "hola")
-Traceback (most recent call last):
-...
-TypeError: b must be an integer
-
->>> add_integer("hello", "hola")
-Traceback (most recent call last):
+    string input
+    >>> add_integer(1, "hola")
+    Traceback (most recent call last):
     ...
-TypeError: a must be an integer
+    TypeError: b must be an integer
+
+
+    double string input
+    >>> add_integer("hello", "hola")
+    Traceback (most recent call last):
+        ...
+    TypeError: a must be an integer
