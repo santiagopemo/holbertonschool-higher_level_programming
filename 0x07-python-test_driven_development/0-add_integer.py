@@ -1,10 +1,15 @@
 #!/usr/bin/python3
-"""Add two numbers and check them"""
+"""
+Add integer module
+contains:
+add_integer fucntion
+"""
 
 
 def add_integer(a, b=98):
-    """Add a and b"""
-
+    """
+    Adds two integers
+    """
     if type(a) is float:
         a = int(a)
     if type(b) is float:
