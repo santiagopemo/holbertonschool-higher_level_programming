@@ -2,6 +2,8 @@
 """
 Module with a class LockedClass with no class or object attribute
 """
+
+
 class LockedClass:
     """
     Class that prevents the user from dynamically creating new instance
