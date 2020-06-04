@@ -22,7 +22,7 @@ def pascal_triangle(n):
             if next_idx == len(triangle[i - 1]):
                 second = 0
             else:
-                second = triangle[i - 1][next_idx]            
+                second = triangle[i - 1][next_idx]
             row.append(first + second)
         triangle.append(row)
     return triangle
