@@ -47,25 +47,25 @@
 
 ## Tasks :page_with_curl:
 ### Mandatory
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-
+- [x] **[0. Read file](./0-read_file.py)** - Write a function that reads a text file (UTF8) and prints it to stdout
+- [x] **[1. Number of lines](./1-number_of_lines.py)** - Write a function that returns the number of lines of a text file
+- [x] **[2. Read n lines](./2-read_lines.py)** - Write a function that reads n lines of a text file (UTF8) and prints it to stdout
+- [x] **[3. Write to a file](./3-write_file.py)** - Write a function that writes a string to a text file (UTF8) and returns the number of characters written
+- [x] **[4. Append to a file](./4-append_write.py)** - Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added
+- [x] **[5. To JSON string](./5-to_json_string.py)** - Write a function that returns the JSON representation of an object (string)
+- [x] **[6. From JSON string to Object](./6-from_json_string.py)** - Write a function that returns an object (Python data structure) represented by a JSON string
+- [x] **[7. Save Object to a file](./7-save_to_json_file.py)** - Write a function that writes an Object to a text file, using a JSON representation
+- [x] **[8. Create object from a JSON file](./8-load_from_json_file.py)** - Write a function that creates an Object from a “JSON file”
+- [x] **[9. Load, add, save](./9-add_item.py)** - Write a script that adds all arguments to a Python list, and then save them to a file
+- [x] **[10. Class to JSON](./10-my_class_2.py)** - Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object
+- [x] **[11. Student to JSON](./11-student.py)** - Write a class Student that defines a student
+- [x] **[12. Student to JSON with filter](./12-student.py)** - Write a class Student that defines a student by: (based on 11-student.py)
+- [x] **[13. Student to disk and reload](./13-student.py)** - Write a class Student that defines a student by: (based on 12-student.py)
+- [x] **[14. Pascal's Triangle](./14-pascal_triangle.py)** - Create a function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n
 ### Advance :muscle:
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
-- [x] **[](./)** - Description
+- [x] **[15. Search and update](./100-append_after.py)** - Write a function that inserts a line of text to a file, after each line containing a specific string
+- [ ] **[16. Log parsing](./101-stats.py)** - Write a script that reads stdin line by line and computes metrics
+- [ ] **[17. Hack the VM](./read_write_heap.py)** - Write a script that finds a string in the heap of a running process, and replaces it
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
