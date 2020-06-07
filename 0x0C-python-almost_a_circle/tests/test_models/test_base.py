@@ -211,7 +211,7 @@ class TestBase(unittest.TestCase):
         with self.assertRaises(TypeError):
             Square.save_to_file()
         
-    def test_save_to_file_zero_args(self):
+    def test_save_to_file_two_args(self):
         with self.assertRaises(TypeError):
             Rectangle.save_to_file([], [])
         with self.assertRaises(TypeError):
