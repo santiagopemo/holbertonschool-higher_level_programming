@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Base Module"""
 import json
+import csv
+from os import path
 
 
 class Base:
@@ -66,3 +68,48 @@ class Base:
                 return obj_list
         except FileNotFoundError:
             return []
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """Serializes in CSV format"""
+        filename = "{}.csv".format(cls.__name__)
+        with open(filename, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            if cls.__name__ == "Rectangle":
+                for o in list_objs:
+                    values = [o.id, o.width, o.height, o.x, o.y]
+                    writer.writerow(values)
+            if cls.__name__ == "Square":
+                for o in list_objs:
+                    values = [o.id, o.size, o.x, o.y]
+                    writer.writerow(values)
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """Deserializes in CSV format"""
+        filename = "{}.csv".format(cls.__name__)
+        if not path.isfile(filename):
+            return []
+        with open(filename, newline='') as csvfile:
+            reader = csv.reader(csvfile)
+            if cls.__name__ == "Rectangle":
+                rect_list = []
+                for row in reader:
+                    r_dict = {}
+                    r_dict["id"] = int(row[0])
+                    r_dict["width"] = int(row[1])
+                    r_dict["height"] = int(row[2])
+                    r_dict["x"] = int(row[3])
+                    r_dict["y"] = int(row[4])
+                    rect_list.append(cls.create(**r_dict))
+                return rect_list
+            if cls.__name__ == "Square":
+                sq_list = []
+                for row in reader:
+                    s_dict = {}
+                    s_dict["id"] = int(row[0])
+                    s_dict["size"] = int(row[1])
+                    s_dict["x"] = int(row[2])
+                    s_dict["y"] = int(row[3])
+                    sq_list.append(cls.create(**s_dict))
+                return sq_list
