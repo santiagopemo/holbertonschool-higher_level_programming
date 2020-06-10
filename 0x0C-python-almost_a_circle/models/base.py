@@ -3,6 +3,8 @@
 import json
 import csv
 from os import path
+import turtle
+import random
 
 
 class Base:
@@ -113,3 +115,45 @@ class Base:
                     s_dict["y"] = int(row[3])
                     sq_list.append(cls.create(**s_dict))
                 return sq_list
+
+    @staticmethod
+    def draw(list_rectangles, list_squares):
+        """Draw squares"""
+        t1 = turtle.Turtle()
+        t1.screen.bgcolor("#ffffff")
+        t1.hideturtle()
+        t1.pensize(4)
+        t1.shape("turtle")
+        sf = 5
+        h_x = (-1 * turtle.window_width() / 2) + 5
+        h_y = (-1 * turtle.window_height() / 2) + 10
+        t1.up()
+        t1.goto(h_x, h_y)
+        for i in range(2):
+            if i == 0:
+                seq = list_rectangles
+            if i == 1:
+                seq = list_squares
+            for r in seq:
+                tur_color = "#{:06x}".format(random.randint(0, 0xaaaaaa))
+                t1.color(tur_color)
+                t1.showturtle()
+
+                t1.up()
+                t1.forward(r.x * sf)
+                t1.left(90)
+                t1.forward(r.y * sf)
+                t1.down()
+
+                t1.forward(r.height * sf)
+                t1.right(90)
+                t1.forward(r.width * sf)
+                t1.right(90)
+                t1.forward(r.height * sf)
+                t1.right(90)
+                t1.forward(r.width * sf)
+                t1.up()
+                t1.goto(h_x, h_y)
+                t1.right(180)
+                t1.down()
+        turtle.exitonclick()
