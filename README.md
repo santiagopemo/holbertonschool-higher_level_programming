@@ -32,6 +32,11 @@ This repository contains projects on the Python programming language. The projec
 6. [0x05. Python - Exceptions](./0x05-python-exceptions)
 7. [0x06. Python - Classes and Objects](./0x06-python-classes)
 8. [0x07. Python - Test-driven development](./0x07-python-test_driven_development)
+9. [0x08. Python - More Classes and Objects](./0x08-python-more_classes)
+10. [0x09. Python - Everything is object](./0x09-python-everything_is_object)
+11. [0x0A. Python - Inheritance](./0x0A-python-inheritance)
+12. [0x0B. Python - Input/Output](./0x0B-python-input_output)
+13. [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
