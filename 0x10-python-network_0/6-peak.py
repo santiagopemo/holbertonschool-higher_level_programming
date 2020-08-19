@@ -13,11 +13,11 @@ def find_peak(list_of_integers):
     peak = li[0]
     while hi > lo:
         mid = int(lo + (hi - lo) / 2)
-        if li[mid - 1] <= li[mid] >= li[mid + 1]:
-            peak = li[mid]
-            break
-        elif li[mid] <= li[mid + 1]:
+        if li[mid] <= li[mid + 1]:
             lo = mid + 1
         elif li[mid] <= li[mid - 1]:
             hi = mid - 1
+        elif li[mid - 1] <= li[mid] >= li[mid + 1]:
+            peak = li[mid]
+            break
     return peak
