@@ -7,8 +7,7 @@ def find_peak(list_of_integers):
     l = len(list_of_integers)
     if l == 0:
         return None
-    m = max(list_of_integers)
-    peak = m
+    peak = list_of_integers[0]
     for i in range(l):
         if i > 0:
             prev = list_of_integers[i - 1]
@@ -19,6 +18,6 @@ def find_peak(list_of_integers):
         else:
             next = list_of_integers[i + 1]
         v = list_of_integers[i]
-        if prev < v > next:
+        if prev <= v >= next:
             peak = v
     return peak
