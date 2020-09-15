@@ -3,6 +3,6 @@ if (process.argv.length < 4) {
   console.log(0);
 } else {
   const args = process.argv
-    .slice(2).sort(function (a, b) { return a - b; });
+    .slice(2).sort();
   console.log(args[args.length - 2]);
 }
