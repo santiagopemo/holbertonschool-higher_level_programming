@@ -3,7 +3,7 @@ const args = process.argv;
 if (args.length < 4) {
   console.log(0);
 } else {
-  const sArgs = args.slice(2);
+  const sArgs = args.slice(2).map(Number);
   sArgs.sort();
   console.log(sArgs[sArgs.length - 2]);
 }
