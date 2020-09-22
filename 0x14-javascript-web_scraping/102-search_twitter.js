@@ -36,10 +36,11 @@ request.post(options, (error, response, body) => {
       request.get(options, (error, response, body) => {
         if (error) {
           console.log(error);
-        }
-        const tweets = JSON.parse(body).statuses;
-        for (const tweet of tweets) {
-          console.log('[' + tweet.id + '] ' + tweet.text + ' by ' + tweet.user.name);
+        } else {
+          const tweets = JSON.parse(body).statuses;
+          for (const tweet of tweets) {
+            console.log('[' + tweet.id + '] ' + tweet.text + ' by ' + tweet.user.name);
+          }
         }
       });
     }
