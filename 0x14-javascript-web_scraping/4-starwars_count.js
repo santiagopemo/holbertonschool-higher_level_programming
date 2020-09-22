@@ -10,8 +10,11 @@ request.get(url, (err, response, body) => {
       const rJson = JSON.parse(body);
       let count = 0;
       for (const film of rJson.results) {
-        if (film.characters.includes('https://swapi-api.hbtn.io/api/people/18/')) {
-          count++;
+        for (const character of film.characters) {
+          if (character.endsWith('/18/')) {
+            count++;
+            break;
+          }
         }
       }
       console.log(count);
