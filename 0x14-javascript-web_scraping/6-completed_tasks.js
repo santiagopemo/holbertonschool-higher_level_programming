@@ -10,7 +10,7 @@ request.get(url, (err, response, body) => {
     const todos = JSON.parse(body);
     for (const task of todos) {
       const key = task.userId;
-      if (!newDict[key]) {
+      if (newDict[key] === undefined) {
         newDict[key] = 0;
       }
     }
