@@ -15,7 +15,7 @@ request.get(url, (err, response, body) => {
       }
     }
     for (const task of todos) {
-      if (task.completed) {
+      if (task.completed === true) {
         const key = task.userId;
         newDict[key]++;
       }
