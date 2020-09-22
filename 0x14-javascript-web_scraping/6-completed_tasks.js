@@ -10,14 +10,12 @@ request.get(url, (err, response, body) => {
     const todos = JSON.parse(body);
     for (const task of todos) {
       const key = task.userId;
-      if (newDict[key] === undefined) {
-        newDict[key] = 0;
-      }
-    }
-    for (const task of todos) {
       if (task.completed === true) {
-        const key = task.userId;
-        newDict[key]++;
+        if (newDict[key] === undefined) {
+          newDict[key] = 1;
+        } else {
+          newDict[key]++;
+        }
       }
     }
     console.log(newDict);
