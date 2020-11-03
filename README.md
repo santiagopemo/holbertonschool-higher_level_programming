@@ -37,7 +37,15 @@ This repository contains projects on the Python programming language. The projec
 11. [0x0A. Python - Inheritance](./0x0A-python-inheritance)
 12. [0x0B. Python - Input/Output](./0x0B-python-input_output)
 13. [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
-16. ----
+14. [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+15. [0x0E. SQL - More queries](./0x0E-SQL_more_queries)
+16. [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping)
+17. [0x10. Python - Network #0](./0x10-python-network_0)
+18. [0x11. Python - Network #1](./0x11-python-network_1)
+19. [0x12. Javascript - Warm up](./0x12-javascript-warm_up)
+20. [0x13. Javascript - Objects, Scopes and Closures](./0x0F-python-object_relational_mapping)
+21. [0x14. Javascript - Web scraping](./0x14-javascript-web_scraping)
+22. [0x15. Javascript - Web JQuery](./0x15-javascript-web_jquery)
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
