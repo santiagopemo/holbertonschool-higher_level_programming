@@ -1,7 +1,9 @@
 # Holbertonschool Higher Level Programming :boom:
 
-## Introduction 
-This repository contains all the project tasks of Holberton School higher level programing program, most of them where written in Python programing lenguage.
+## Description
+
+A high-level programming language is characterized by expressing algorithms in a way appropriate to human cognitive capacity, instead of the capacity with which machines run. These languages allow the programmer maximum flexibility when it comes to abstracting or being literal. They allow a bidirectional path between the machine language and an almost oral expression between the writing of the program and its subsequent compilation, that is why nowadays they are highly demanded and used languages, hence the importance of learning them
+This repository contains all the project tasks of Holberton School higher level programing program, most of them where written in Python and Javascript programing lenguage.
 
 ## Table of Contents :book:
 * [About](#About)
@@ -19,11 +21,17 @@ This repository contains projects on the Python programming language. The projec
 - Exceptions
 - Classes and objects
 - Tests development
+- Networking
+- Web scraping
 
 ## Requirements :white_check_mark:
 * Ubuntu 14.04 LTS
+* Phyton 3.7
+* Node JS 14.15
+* MySQL
 
 ## Projects :page_with_curl:
+Each of the following folders contain the projects, with the different topics in the process of learning the different programming languages mentioned above.  
 1. [0x00. Python - Hello, World](./0x00-python-hello_world)
 2. [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
 3. [0x02. Python - import & modules](./0x02-python-import_modules)
@@ -48,4 +56,7 @@ This repository contains projects on the Python programming language. The projec
 22. [0x15. Javascript - Web JQuery](./0x15-javascript-web_jquery)
 
 ## Author :pencil:
-**Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
+### Santiago Peña Mosquera  
+Mechatronic engineer and student of software development in holberton school, lover of building new things from scratch, that's why my passion for programming, starting from an empty sheet and turning it into a solution for real problems.  
+<a href="https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/" target="_blank"><img alt="LinkedIn" width="20" height="20" src="./linkedin-icon-2.svg"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://twitter.com/santiagopemo" target="_blank"><img alt="Twitter" width="20" height="20" src="./cdnlogo_twitter-icon.svg"></a>
