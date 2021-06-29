@@ -58,5 +58,5 @@ Each of the following folders contain the projects, with the different topics in
 ## Author :pencil:
 ### Santiago Peña Mosquera  
 Mechatronic engineer and student of software development in holberton school, lover of building new things from scratch, that's why my passion for programming, starting from an empty sheet and turning it into a solution for real problems.  
-<a href="https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/" target="_blank"><img alt="LinkedIn" width="20" height="20" src="./linkedin-icon-2.svg"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://twitter.com/santiagopemo" target="_blank"><img alt="Twitter" width="20" height="20" src="./cdnlogo_twitter-icon.svg"></a>
+<a href="https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://twitter.com/santiagopemo" target="_blank">Twitter</a>
