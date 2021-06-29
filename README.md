@@ -5,7 +5,7 @@
 A high-level programming language is characterized by expressing algorithms in a way appropriate to human cognitive capacity, instead of the capacity with which machines run. These languages allow the programmer maximum flexibility when it comes to abstracting or being literal. They allow a bidirectional path between the machine language and an almost oral expression between the writing of the program and its subsequent compilation, that is why nowadays they are highly demanded and used languages, hence the importance of learning them
 This repository contains all the project tasks of Holberton School higher level programing program, most of them where written in Python and Javascript programing lenguage.
 <p align="center">
-  <img width="100%" height="auto" src="./Python-screenshot.PNG">
+  <img width="100%" height="auto" src="./Phyton-screenshot.PNG">
 </p>
 
 ## Table of Contents :book:
